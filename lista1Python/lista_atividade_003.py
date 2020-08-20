@@ -10,16 +10,16 @@ class Atividade03:
         print(Atividade03().divisao(val1, val2))
 
     def soma(self, val1, val2):
-        return val1 + val2
+        return (val1 + val2) + 1
 
     def subtracao(self, val1, val2):
-        return val1 - val2
+        return (val1 - val2) + 1
 
     def multiplicacao(self, val1, val2):
-        return val1 * val2
+        return (val1 * val2) + 1
 
     def divisao(self, val1, val2):
-        return val1 / val2
+        return (val1 / val2) + 1
 
 
 atividade = Atividade03()

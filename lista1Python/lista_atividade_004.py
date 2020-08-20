@@ -1,14 +1,14 @@
 class Atividade04:
 
     def troco(self):
-        valRecebido = float(input('digite o valor que sera pago: '))
+        valDesconto = float(input('digite o valor do desconto: '))
         valProduto = float(input('digite o valor do produto: '))
 
-        valTroco = valRecebido - valProduto
+        valFinal = valProduto - valDesconto
 
-        if valTroco >= 0:
-            return print(valTroco)
-        return print("Valor pago é menor que o valor do produto")
+        if valFinal >= 0:
+            return print("O valor final do produto é: ", valFinal)
+        return print("Valor de desconto é maior que o valor do produto")
 
 
 atividade = Atividade04()
